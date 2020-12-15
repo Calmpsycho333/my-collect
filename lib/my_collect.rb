@@ -3,6 +3,6 @@ def my_collect(array)
     new_array = []
     while lang < array.length
         new_array << yield(array[lang])
-        lanh = +1
+        lang = +1
 end 
 end
